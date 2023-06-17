@@ -1,0 +1,296 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(233, 245, 126);
+    background-color: rgb(232, 245, 112);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#body_2 {
+    background-image: url(../Images/O\ NÁS_1.jpg);
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-color: wheat;
+}
+
+#odsazení {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#o_nás_img {
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#o_nás_text {
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+#o_nás_nadpis {
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+}
+
+#o_nás_1 {
+    margin-top: 300px;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.795);
+    opacity: 0.9;
+}
+
+#hlava {
+    font-size: 70px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(255, 0, 255);
+}
+
+#intro_1 {
+    font-size: 30px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+}
+
+#zápatí {
+    font-size: 20px;
+    margin-top: 50px;
+    font-style: italic;
+    text-align: center;
+}
+
+#napápnout {
+    font-size: 15px;
+    color: white;
+}
+
+#dezerty {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.navigace {
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.795);
+}
+
+
+.navigace a {
+    margin-left: 50px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+img {
+    margin: 10px;
+}
+
+i{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+i:hover, a:hover {
+    color: rgb(14, 132, 250);
+    cursor: pointer;
+}
+
+.navigace nav li {
+    padding: 10px;
+    margin: 20px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.ikone{
+    float: right;
+}
+
+#jídelák {
+    visibility: hidden;
+}
+
+
+.header {
+    background-image: url(../Images/Domů_1.jpg);
+    background-color: grey;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.header>div {
+    height: 500px;
+}
+
+.IntroMsg {
+    width: 100%;
+    left: 5%;
+    top: 100px;
+    text-align: center;
+    padding-top: 106px;
+    height: auto;
+    opacity: 0.9;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.story {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.imgContainer {
+    width: 90%;
+    height: fit-content;
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    color: white;
+
+
+}
+
+.imgContainer>div {
+    margin: 10px;
+}
+
+.menu_1>img {
+    width: 75%;
+    border-radius: 10%;
+    height: auto;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    filter: blur(0.5px);
+}
+
+.menu_1 {
+    text-align: center;
+    color: rgb(39, 39, 39);
+    border-radius: 10px;
+}
+
+main{
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.menu {
+    border-color: black;
+    border-radius: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    width: 80%;
+    left: 0%;
+    padding: 20px;
+    opacity: 100%;
+    background-color: rgba(62, 187, 196, 0.158);
+    box-shadow: rgb(0, 0, 0) 0px 15px 40px -10px;
+    margin-top: 30px;
+}
+
+
+#home-menu ul {
+    background-color: white;
+    border-radius: 5px;
+    list-style: none;
+    padding: 30px;
+}
+
+#home-menu h2 {
+    text-shadow: 0.5px 0.5px black;
+}
+
+#home-menu ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#home-menu li {
+    float: left;
+    width: 50%;
+    padding: 0;
+    margin: 20px 0 20px 8%;
+    border-bottom: 1px solid slategray;
+}
+.produkt {
+    float: left;
+    color: #555;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    padding-right: 15px;
+}
+
+.cena {
+    float: right;
+    color: #555;
+    font-weight: bold;
+    position: relative;
+    background-color: transparent;
+    padding-left: 15px;
+}
+
+.popis {
+    clear: both;
+    display: block;
+    color: #999;
+    font-style: italic;
+    font-size: 14px;
+    padding-top: 10px;
+    position: relative;
+    top: -8px;
+}
